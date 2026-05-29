@@ -2689,7 +2689,7 @@
 		)
 		(uuid "2cd7fd3b-633a-46e4-87bc-6db608b511b4")
 	)
-	(text "to do :3\n\ndid we add the speaker?? how to wire that in?????"
+	(text "to do :3\n\ndid we add the speaker?? how to wire that in?????\n\n\ndeadline: needs to be manufactured before june 13"
 		(exclude_from_sim no)
 		(at 248.92 70.866 0)
 		(effects

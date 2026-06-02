@@ -3532,7 +3532,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/P1898.pdf"
 			(at 83.566 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4590,7 +4590,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.waveshare.com/w/upload/a/ae/ST7789_Datasheet.pdf"
 			(at 165.1 106.68 0)
 			(hide yes)
 			(show_name no)

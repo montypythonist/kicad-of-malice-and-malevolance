@@ -2843,7 +2843,7 @@
 		)
 		(uuid "6db48e20-6bd5-49a5-bf7c-1c70f432a76c")
 	)
-	(text "switched from 2032 to 2430 because of\nthe way the 2430 battery hold is designed, \nits lowkey impossible to wire it backwards, \neliminating the need for schottky diode"
+	(text "switched from 2032 to 2430 because of\nthe way the 2430 battery hold is designed, \nits lowkey impossible to wire it backwards, \neliminating the need for schottky diode.\n\nbrand: keystone"
 		(exclude_from_sim no)
 		(at 66.294 58.674 0)
 		(effects
@@ -4188,7 +4188,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3100P-B"
 			(at 128.27 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -4844,7 +4844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 44.45 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4926,7 +4926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 195.58 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5086,7 +5086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3100P-B"
 			(at 200.66 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5168,7 +5168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3008_1x2450"
 			(at 90.17 58.166 90)
 			(hide yes)
 			(show_name no)

@@ -2301,7 +2301,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "display-lol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2311,7 +2311,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "display-lol:display-lol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2322,7 +2322,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3787/3787_tft_QT154H2201__________20190228182902.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3514,7 +3514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "stupid-dumb-speaker:stupid-dumb-speaker"
 			(at 83.82 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4654,7 +4654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "display-lol:display-lol"
 			(at 165.1 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4665,7 +4665,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.waveshare.com/w/upload/a/ae/ST7789_Datasheet.pdf"
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3787/3787_tft_QT154H2201__________20190228182902.pdf"
 			(at 165.1 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5072,7 +5072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "pwr"
+		(property "Value" "usr"
 			(at 199.39 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)

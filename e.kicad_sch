@@ -4259,7 +4259,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3100P-B"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
 			(at 128.27 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -5083,7 +5083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3100P-B"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
 			(at 200.66 66.04 0)
 			(hide yes)
 			(show_name no)

@@ -4248,7 +4248,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "rst"
 			(at 134.62 167.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5072,7 +5072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "pwr"
 			(at 199.39 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)

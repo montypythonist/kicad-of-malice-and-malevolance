@@ -6972,19 +6972,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "<ö>"
-		(at 194 93 90)
-		(layer "F.SilkS")
-		(uuid "9655af00-e0c1-4060-8263-31bfe98df217")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "off"
 		(at 175 104 270)
 		(layer "F.SilkS")

@@ -21,7 +21,7 @@ _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
-fp-info-cache
+fp-*
 ~*.lck
 \#auto_saved_files#
 

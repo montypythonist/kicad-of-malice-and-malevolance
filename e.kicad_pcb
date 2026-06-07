@@ -87,12 +87,12 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "amp-of-doom:MAX98357A"
+	(footprint "custom-fp:MAX98357A"
 		(layer "F.Cu")
 		(uuid "00eaee52-e572-433c-bece-a80e2981ad1c")
 		(at 134.2 98.78 90)
 		(property "Reference" "U2"
-			(at -0.22 10.3 90)
+			(at 0 -1.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9486b62a-4111-476e-9878-9c1d16369239")
@@ -145,6 +145,12 @@
 		(path "/07f61985-9295-4e73-b123-9af6fc72e95d")
 		(sheetname "/")
 		(sheetfile "e.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1" "5" "4" "7" "6" "8" "9")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -411,12 +417,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "stupid-dumb-speaker:stupid-dumb-speaker"
+	(footprint "custom-fp:stupid-dumb-speaker"
 		(layer "F.Cu")
 		(uuid "0e06c066-faee-4cca-b9e9-0e84dda7028a")
 		(at 106 103.28 90)
 		(property "Reference" "LS1"
-			(at 0 16.5 90)
+			(at 0 -1.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3514fe80-66bb-4962-9770-569b14183557")
@@ -468,6 +474,12 @@
 		(path "/00583b29-2077-4d3d-a585-24277aeed38c")
 		(sheetname "/")
 		(sheetfile "e.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -551,12 +563,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "display-lol:display-lol"
+	(footprint "custom-fp:display-lol"
 		(layer "F.Cu")
 		(uuid "34f3143b-0fb8-4eba-a508-5ffe78787996")
 		(at 116 65.78)
 		(property "Reference" "U1"
-			(at 0 22.22 0)
+			(at 0 -1.6 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "425b0769-86e8-48a4-8b02-d2d946a0e67d")
@@ -608,6 +620,12 @@
 		(path "/9016d520-7ad4-490b-b3a1-69048dcb16a7")
 		(sheetname "/")
 		(sheetfile "e.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2" "4" "5" "6" "7" "8" "9" "10" "11" "12")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -1713,7 +1731,7 @@
 			(unit
 				(name "A")
 				(pins "30" "37" "1" "2" "4" "5" "6" "7" "9" "10" "11" "12" "14" "15"
-					"16" "17" "19" "20" "39" "40" "18" "23" "28" "13" "8" "38" "3" "36"
+					"16" "17" "19" "20" "39" "40" "23" "3" "8" "38" "13" "28" "18" "36"
 					"21" "22" "24" "25" "26" "27" "29" "35" "31" "32" "34" "33"
 				)
 			)

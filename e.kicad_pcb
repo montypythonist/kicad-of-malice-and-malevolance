@@ -646,10 +646,10 @@
 		(uuid "7dda34d4-f4b8-4f33-a10d-7eedee4c309d")
 		(at 166.45 98.31 90)
 		(property "Reference" "U1"
-			(at 0 -1.6 90)
+			(at -23.19 19.55 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "263bd946-9b34-4d77-9efb-d13587336d19")
+			(uuid "887ce65c-f21c-4f31-b85d-9c1e18c00746")
 			(effects
 				(font
 					(size 1 1)
@@ -661,7 +661,7 @@
 			(at 0 -0.1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "10074757-0397-4fb0-bf30-510dd236ef06")
+			(uuid "95c3d980-1814-4c41-b421-7b6250c61927")
 			(effects
 				(font
 					(size 1 1)
@@ -674,7 +674,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec45a7cd-4ed8-42d0-9cdf-5c9ee04db569")
+			(uuid "26d17eeb-d262-4d3d-b3b3-6a34b40c7816")
 			(effects
 				(font
 					(size 1 1)
@@ -687,7 +687,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23f78bfb-ab94-4f85-8f20-60fa13aa9011")
+			(uuid "0ff5b2c6-f8d3-4358-93cf-c14f027f6f14")
 			(effects
 				(font
 					(size 1 1)
@@ -700,16 +700,45 @@
 		(sheetfile "e.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -21.85 -21)
-			(end 21.85 20.8)
+		(fp_line
+			(start 21.844 -21)
+			(end 21.336 -21)
 			(stroke
 				(width 0.1)
-				(type solid)
+				(type default)
 			)
-			(fill no)
 			(layer "F.SilkS")
-			(uuid "9b1d56bb-3a22-4a59-88e2-d552cc24eb68")
+			(uuid "97153732-925d-459e-900d-2f53d2a9d174")
+		)
+		(fp_line
+			(start 21.844 -21)
+			(end 21.844 -20.492)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0dad6158-e6d0-4c3e-9975-64e5910c64ef")
+		)
+		(fp_line
+			(start -21.844 20.828)
+			(end -21.844 20.32)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "9ce9f3eb-321f-46c6-a266-64357b21726c")
+		)
+		(fp_line
+			(start -21.844 20.828)
+			(end -21.336 20.828)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "1bb74801-e5e9-42ad-8ab0-603607afbcf6")
 		)
 		(fp_rect
 			(start -17.272 12.192)
@@ -5931,10 +5960,10 @@
 		(uuid "e1947968-7e38-4f9b-9f78-ef60c3c55bad")
 		(at 127.65 88.35 90)
 		(property "Reference" "LS1"
-			(at 14.7 -7 180)
+			(at 12.85 10.85 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "8c4bff80-4522-4372-ad87-ed9a68c356b5")
+			(uuid "8886f901-f7a6-4db8-a671-1e9f5a87d44f")
 			(effects
 				(font
 					(size 1 1)
@@ -5946,7 +5975,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "34f0641a-6af6-4167-a989-1f5f9bf55f5f")
+			(uuid "16784885-0067-4116-8445-61fede8ebfd1")
 			(effects
 				(font
 					(size 1 1)
@@ -5959,7 +5988,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77519e95-ec5d-48fb-9da8-8810414b0806")
+			(uuid "f80864d1-7f40-486c-9d8c-680480a6d17c")
 			(effects
 				(font
 					(size 1 1)
@@ -5972,7 +6001,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "137bcee3-8c2b-48bd-a649-cc80e226a288")
+			(uuid "013a11af-5bf1-4306-92aa-5b2899ae9ab3")
 			(effects
 				(font
 					(size 1 1)
@@ -6746,7 +6775,7 @@
 	)
 	(gr_rect
 		(start 112.15 66.15)
-		(end 190.15 124.650001)
+		(end 190.15 124.499999)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -6756,12 +6785,12 @@
 		(uuid "33056b54-5e43-4252-b6fe-8b28afb35b13")
 	)
 	(gr_text "this routing haunts me in my sleep"
-		(at 189.15 109.65 90)
+		(at 188.5 111 90)
 		(layer "F.SilkS")
 		(uuid "3608be4c-be8e-4089-9cbb-6816c92a92f2")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 0.7 0.7)
 				(thickness 0.1)
 				(bold yes)
 			)
@@ -6769,12 +6798,12 @@
 		)
 	)
 	(gr_text "on"
-		(at 135.649999 70.473333 90)
+		(at 136 71 90)
 		(layer "F.SilkS")
 		(uuid "ce20f35f-f039-4fc7-9ab9-af98ebee2966")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 0.8 0.8)
 				(thickness 0.1)
 				(bold yes)
 			)
@@ -6782,20 +6811,20 @@
 		)
 	)
 	(gr_text "off"
-		(at 122.649999 69.473333 270)
+		(at 122 69.5 270)
 		(layer "F.SilkS")
 		(uuid "03bbb989-da97-4d1e-8210-7c8b60939a85")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 0.8 0.8)
 				(thickness 0.1)
 				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "made by\nmontypythonist X3"
-		(at 113.65 74.15 270)
+	(gr_text "from monty X3"
+		(at 113.5 67.5 270)
 		(layer "F.SilkS")
 		(uuid "a1f48953-4d90-4e93-a951-e9f53547ccbe")
 		(effects
@@ -6803,10 +6832,10 @@
 				(size 1 1)
 				(thickness 0.1)
 			)
-			(justify bottom)
+			(justify left bottom)
 		)
 	)
-	(gr_text "some notes: \ninsert words here :)"
+	(gr_text "text here"
 		(at 117.15 123.65 90)
 		(layer "F.SilkS")
 		(uuid "2479d2e8-9902-4d5c-9360-893b1c1c2f41")
@@ -8080,9 +8109,9 @@
 				(xy 188.207664 73.443793) (xy 188.207671 73.443797) (xy 188.342517 73.494091) (xy 188.342516 73.494091)
 				(xy 188.347 73.494573) (xy 188.402127 73.5005) (xy 189.397872 73.500499) (xy 189.457483 73.494091)
 				(xy 189.482165 73.484884) (xy 189.551856 73.479899) (xy 189.61318 73.513384) (xy 189.646666 73.574706)
-				(xy 189.6495 73.601066) (xy 189.6495 124.025501) (xy 189.629815 124.09254) (xy 189.577011 124.138295)
-				(xy 189.5255 124.149501) (xy 112.7745 124.149501) (xy 112.707461 124.129816) (xy 112.661706 124.077012)
-				(xy 112.6505 124.025501) (xy 112.6505 116.135258) (xy 120.7995 116.135258) (xy 120.7995 116.364741)
+				(xy 189.6495 73.601066) (xy 189.6495 123.875499) (xy 189.629815 123.942538) (xy 189.577011 123.988293)
+				(xy 189.5255 123.999499) (xy 112.7745 123.999499) (xy 112.707461 123.979814) (xy 112.661706 123.92701)
+				(xy 112.6505 123.875499) (xy 112.6505 116.135258) (xy 120.7995 116.135258) (xy 120.7995 116.364741)
 				(xy 120.819788 116.518832) (xy 120.829452 116.592238) (xy 120.851295 116.673757) (xy 120.888842 116.813887)
 				(xy 120.97665 117.025876) (xy 120.976657 117.02589) (xy 121.091392 117.224617) (xy 121.231081 117.406661)
 				(xy 121.231089 117.40667) (xy 121.39333 117.568911) (xy 121.393338 117.568918) (xy 121.575382 117.708607)
@@ -8932,9 +8961,9 @@
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 189.592539 66.670185) (xy 189.638294 66.722989) (xy 189.6495 66.7745) (xy 189.6495 124.025501)
-				(xy 189.629815 124.09254) (xy 189.577011 124.138295) (xy 189.5255 124.149501) (xy 112.7745 124.149501)
-				(xy 112.707461 124.129816) (xy 112.661706 124.077012) (xy 112.6505 124.025501) (xy 112.6505 116.135258)
+				(xy 189.592539 66.670185) (xy 189.638294 66.722989) (xy 189.6495 66.7745) (xy 189.6495 123.875499)
+				(xy 189.629815 123.942538) (xy 189.577011 123.988293) (xy 189.5255 123.999499) (xy 112.7745 123.999499)
+				(xy 112.707461 123.979814) (xy 112.661706 123.92701) (xy 112.6505 123.875499) (xy 112.6505 116.135258)
 				(xy 120.7995 116.135258) (xy 120.7995 116.364741) (xy 120.819789 116.518841) (xy 120.829452 116.592238)
 				(xy 120.878139 116.773942) (xy 120.888842 116.813887) (xy 120.97665 117.025876) (xy 120.976657 117.02589)
 				(xy 121.091392 117.224617) (xy 121.231081 117.406661) (xy 121.231089 117.40667) (xy 121.39333 117.568911)
@@ -10084,18 +10113,6 @@
 				(xy 112.7745 66.6505) (xy 189.5255 66.6505)
 			)
 		)
-	)
-	(group ""
-		(uuid "44044c4c-9110-4a88-b0ce-294c61a6f578")
-		(members "b0904ed2-5f99-419c-b382-4dc33d7675e0")
-	)
-	(group ""
-		(uuid "78b8f78e-4eb4-48dd-a1f1-75d68b7a6752")
-		(members "44044c4c-9110-4a88-b0ce-294c61a6f578")
-	)
-	(group ""
-		(uuid "b0904ed2-5f99-419c-b382-4dc33d7675e0")
-		(members "03bbb989-da97-4d1e-8210-7c8b60939a85" "ce20f35f-f039-4fc7-9ab9-af98ebee2966")
 	)
 	(embedded_fonts no)
 )

@@ -5,10 +5,10 @@
 	(uuid "8ebdc5a5-d325-4a55-9117-5b5015586df6")
 	(paper "A4")
 	(title_block
-		(title "random ahh circuit")
+		(title "birthday circuit of malice and malevolance")
 		(date "2026-03-07")
 		(company "montypythonist")
-		(comment 1 "deadline: idek anymore")
+		(comment 1 "happy birthday!!")
 	)
 	(lib_symbols
 		(symbol "Audio:MAX98357A"
@@ -2872,7 +2872,7 @@
 	)
 	(text "This is fine but it means you are resetting them both at the same time. \nIf you are planning to reset these often, then a large visible switch for each one is nice.\nIf you are only planning to reset them once or twice, then just use a jumper cable and connecting it GND when you need to."
 		(exclude_from_sim no)
-		(at 111.506 176.784 0)
+		(at 210.058 150.368 0)
 		(effects
 			(font
 				(size 1.27 1.27)

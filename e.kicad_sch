@@ -5602,7 +5602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 106.68 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -6024,7 +6024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 165.1 77.47 0)
 			(hide yes)
 			(show_name no)

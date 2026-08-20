@@ -2895,8 +2895,8 @@
 		(uuid "5867fa8b-7e31-4d04-ade2-f2bdf77999e3")
 	)
 	(rectangle
-		(start 226.06 16.51)
-		(end 279.4 57.15)
+		(start 242.57 19.05)
+		(end 271.78 67.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -2908,7 +2908,7 @@
 	)
 	(text "POWER SWITCH"
 		(exclude_from_sim no)
-		(at 241.046 21.082 0)
+		(at 257.048 23.114 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -2964,16 +2964,6 @@
 			(justify left)
 		)
 		(uuid "6f14b848-340a-4791-8dae-bb8f057c4266")
-	)
-	(text "switched from 2032 to \n2430 because of\nthe way the 2430 battery \nhold is designed, \nits lowkey impossible \nto wire it backwards"
-		(exclude_from_sim no)
-		(at 242.316 38.608 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7517a876-0ab5-4ef8-9621-8b1177e69d5a")
 	)
 	(text "for the Adafruit 1898\nspeaker, the two pins \nare exactly 15 mm apart"
 		(exclude_from_sim no)
@@ -3080,7 +3070,7 @@
 		(uuid "9815c2df-d8a8-4757-981f-0e5cecc3f7d9")
 	)
 	(no_connect
-		(at 260.35 38.1)
+		(at 252.73 48.26)
 		(uuid "9c2c3d25-b780-486d-84c4-7074c1ccc6a9")
 	)
 	(no_connect
@@ -3098,6 +3088,36 @@
 	(no_connect
 		(at 218.44 97.79)
 		(uuid "f2d90643-9302-4b41-9a62-6a47ccae1ceb")
+	)
+	(wire
+		(pts
+			(xy 106.68 161.29) (xy 107.95 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04bbdd29-8220-44c7-99b6-d8152aeb7a1d")
+	)
+	(wire
+		(pts
+			(xy 106.68 128.27) (xy 172.72 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2e7cec-305b-428f-ab4f-1246dbe80a6b")
+	)
+	(wire
+		(pts
+			(xy 101.6 156.21) (xy 101.6 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "122799e0-663e-4ce6-8739-ca88d3d38bd0")
 	)
 	(wire
 		(pts
@@ -3151,7 +3171,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 48.26) (xy 265.43 46.99)
+			(xy 257.81 58.42) (xy 257.81 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3171,6 +3191,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 128.27) (xy 106.68 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa21a39-dea9-4494-ad01-6da093dde078")
+	)
+	(wire
+		(pts
 			(xy 86.36 62.23) (xy 81.28 62.23)
 		)
 		(stroke
@@ -3181,16 +3211,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 161.29) (xy 102.87 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4af93de5-358e-4747-9152-ef29e0306c8f")
-	)
-	(wire
-		(pts
 			(xy 76.2 102.87) (xy 172.72 102.87)
 		)
 		(stroke
@@ -3198,6 +3218,16 @@
 			(type default)
 		)
 		(uuid "50dfb112-c28e-4c11-9066-5c5260e2d8b9")
+	)
+	(wire
+		(pts
+			(xy 104.14 158.75) (xy 107.95 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5238bc66-f656-496c-bbc8-909d6cb9374a")
 	)
 	(wire
 		(pts
@@ -3231,7 +3261,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 25.4) (xy 262.89 27.94)
+			(xy 255.27 35.56) (xy 255.27 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3261,13 +3291,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 158.75) (xy 105.41 125.73)
+			(xy 104.14 125.73) (xy 104.14 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "678104ca-fdbe-4f5f-8bc9-7b6f5f2e37fa")
+		(uuid "67c84d4f-20a0-4343-b8d3-18d9b54e5388")
 	)
 	(wire
 		(pts
@@ -3281,26 +3311,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 161.29) (xy 102.87 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b808666-edb9-4335-b70c-7a6dd03a6802")
-	)
-	(wire
-		(pts
-			(xy 107.95 128.27) (xy 107.95 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6de51684-ccbb-4a97-b9ef-eb6f7d834f87")
-	)
-	(wire
-		(pts
 			(xy 156.21 83.82) (xy 156.21 82.55)
 		)
 		(stroke
@@ -3308,16 +3318,6 @@
 			(type default)
 		)
 		(uuid "75d59749-a9df-42dd-b849-94f7fccbf7af")
-	)
-	(wire
-		(pts
-			(xy 107.95 158.75) (xy 105.41 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7677f8f0-4eb4-44a7-94cf-539fb4adc74e")
 	)
 	(wire
 		(pts
@@ -3391,7 +3391,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 125.73) (xy 172.72 125.73)
+			(xy 104.14 125.73) (xy 172.72 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3421,7 +3421,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 123.19) (xy 172.72 123.19)
+			(xy 101.6 123.19) (xy 172.72 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3511,6 +3511,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 156.21) (xy 101.6 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb49a501-1bb6-4a6f-a7af-7c771bf10b83")
+	)
+	(wire
+		(pts
 			(xy 156.21 82.55) (xy 160.02 82.55)
 		)
 		(stroke
@@ -3551,16 +3561,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 128.27) (xy 107.95 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcf78f5e-2cf8-4306-b3b2-bc9bfa9b77f3")
-	)
-	(wire
-		(pts
 			(xy 120.65 149.86) (xy 120.65 151.13)
 		)
 		(stroke
@@ -3591,7 +3591,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 38.1) (xy 265.43 39.37)
+			(xy 257.81 48.26) (xy 257.81 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3875,7 +3875,7 @@
 		(cells
 			(table_cell "PIN NAME"
 				(exclude_from_sim no)
-				(at 220.98 73.66 0)
+				(at 222.25 95.25 0)
 				(size 11.684 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3894,7 +3894,7 @@
 			)
 			(table_cell "PIN DESCRIPTION"
 				(exclude_from_sim no)
-				(at 232.664 73.66 0)
+				(at 233.934 95.25 0)
 				(size 48.006 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3913,7 +3913,7 @@
 			)
 			(table_cell "VBUS"
 				(exclude_from_sim no)
-				(at 220.98 77.47 0)
+				(at 222.25 99.06 0)
 				(size 11.684 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3930,7 +3930,7 @@
 			)
 			(table_cell "external power pin input (usb)"
 				(exclude_from_sim no)
-				(at 232.664 77.47 0)
+				(at 233.934 99.06 0)
 				(size 48.006 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3947,7 +3947,7 @@
 			)
 			(table_cell "VSYS"
 				(exclude_from_sim no)
-				(at 220.98 81.28 0)
+				(at 222.25 102.87 0)
 				(size 11.684 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3964,7 +3964,7 @@
 			)
 			(table_cell "power supply input from board (battery)"
 				(exclude_from_sim no)
-				(at 232.664 81.28 0)
+				(at 233.934 102.87 0)
 				(size 48.006 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3981,7 +3981,7 @@
 			)
 			(table_cell "3v3"
 				(exclude_from_sim no)
-				(at 220.98 85.09 0)
+				(at 222.25 106.68 0)
 				(size 11.684 3.556)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3998,7 +3998,7 @@
 			)
 			(table_cell "voltage output"
 				(exclude_from_sim no)
-				(at 232.664 85.09 0)
+				(at 233.934 106.68 0)
 				(size 48.006 3.556)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4015,7 +4015,7 @@
 			)
 			(table_cell "RUN"
 				(exclude_from_sim no)
-				(at 220.98 88.646 0)
+				(at 222.25 110.236 0)
 				(size 11.684 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4032,7 +4032,7 @@
 			)
 			(table_cell "reset pin"
 				(exclude_from_sim no)
-				(at 232.664 88.646 0)
+				(at 233.934 110.236 0)
 				(size 48.006 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4741,7 +4741,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 265.43 44.45 0)
+		(at 257.81 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4751,7 +4751,7 @@
 		(dnp no)
 		(uuid "29f96b69-6a71-4ded-af08-7a405a5c5aad")
 		(property "Reference" "BT1"
-			(at 269.24 41.3384 0)
+			(at 261.62 51.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4761,8 +4761,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR2430"
-			(at 269.24 43.8784 0)
+		(property "Value" "CR2450"
+			(at 261.62 54.0384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4772,8 +4772,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_105_1x2430"
-			(at 265.43 42.926 90)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3008_1x2450"
+			(at 257.81 53.086 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4784,7 +4784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 42.926 90)
+			(at 257.81 53.086 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4795,7 +4795,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 265.43 44.45 0)
+			(at 257.81 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4806,7 +4806,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 265.43 44.45 0)
+			(at 257.81 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4817,7 +4817,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 265.43 44.45 0)
+			(at 257.81 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4828,7 +4828,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 265.43 44.45 0)
+			(at 257.81 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5012,7 +5012,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 48.26 0)
+		(at 257.81 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5023,7 +5023,7 @@
 		(fields_autoplaced yes)
 		(uuid "4df98691-5a40-4544-866c-8db2a235bf99")
 		(property "Reference" "#PWR06"
-			(at 265.43 54.61 0)
+			(at 257.81 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5034,7 +5034,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 53.34 0)
+			(at 257.81 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5044,7 +5044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 48.26 0)
+			(at 257.81 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5055,7 +5055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 48.26 0)
+			(at 257.81 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5066,7 +5066,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 48.26 0)
+			(at 257.81 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,7 +5407,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 262.89 33.02 270)
+		(at 255.27 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5417,7 +5417,7 @@
 		(dnp no)
 		(uuid "82e9938e-8369-4130-acd4-1965d6cd452b")
 		(property "Reference" "SW1"
-			(at 267.97 31.7499 90)
+			(at 260.35 41.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5428,7 +5428,7 @@
 			)
 		)
 		(property "Value" "usr"
-			(at 267.97 34.2899 90)
+			(at 260.35 44.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5439,7 +5439,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
-			(at 262.89 33.02 0)
+			(at 255.27 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5450,7 +5450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 33.02 0)
+			(at 247.65 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5461,7 +5461,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw, keystone"
-			(at 262.89 33.02 0)
+			(at 255.27 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5759,7 +5759,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V0")
-		(at 262.89 25.4 0)
+		(at 255.27 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5770,7 +5770,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8011d34-b3a9-472f-9816-2a7cc18f8169")
 		(property "Reference" "#PWR05"
-			(at 262.89 29.21 0)
+			(at 255.27 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5781,7 +5781,7 @@
 			)
 		)
 		(property "Value" "+3V0"
-			(at 262.89 20.32 0)
+			(at 255.27 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5791,7 +5791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 25.4 0)
+			(at 255.27 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5802,7 +5802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 25.4 0)
+			(at 255.27 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5813,7 +5813,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 262.89 25.4 0)
+			(at 255.27 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6023,7 +6023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC9xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
 			(at 165.1 77.47 0)
 			(hide yes)
 			(show_name no)

@@ -7,6 +7,7 @@
 	(title_block
 		(title "birthday circuit of malice and malevolance")
 		(date "2026-03-07")
+		(rev "1")
 		(company "montypythonist")
 		(comment 1 "happy birthday!!")
 	)

@@ -4577,7 +4577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
+		(property "Footprint" "Module:RaspberryPi_Pico_Common_SMD"
 			(at 195.58 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -4761,7 +4761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CR2450"
+		(property "Value" "CR2430"
 			(at 269.24 43.8784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4772,7 +4772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_3008_1x2450"
+		(property "Footprint" "Battery:BatteryHolder_Keystone_105_1x2430"
 			(at 265.43 42.926 90)
 			(hide yes)
 			(show_name no)
@@ -5200,7 +5200,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-128"
 			(at 190.5 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5601,7 +5601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1812_4532Metric"
 			(at 106.68 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -6023,7 +6023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC9xxG"
 			(at 165.1 77.47 0)
 			(hide yes)
 			(show_name no)

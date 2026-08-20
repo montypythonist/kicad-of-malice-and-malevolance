@@ -150,7 +150,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
@@ -260,7 +260,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1955800|1409700|89fd327b-696e-42f8-a627-b07f65871385|21bc5f1e-da1a-4b30-b95b-7c1c2fb2b99d|/8ebdc5a5-d325-4a55-9117-5b5015586df6|/8ebdc5a5-d325-4a55-9117-5b5015586df6|/8ebdc5a5-d325-4a55-9117-5b5015586df6",
+        ""
+      ],
+      [
+        "pin_to_pin|2184400|1282700|21bc5f1e-da1a-4b30-b95b-7c1c2fb2b99d|f381e785-e9cd-4594-a915-3f61e7517497|/8ebdc5a5-d325-4a55-9117-5b5015586df6|/8ebdc5a5-d325-4a55-9117-5b5015586df6|/8ebdc5a5-d325-4a55-9117-5b5015586df6",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1905000|571500|76732692-d7af-41a4-b3b2-0f93265da363|00000000-0000-0000-0000-000000000000|/8ebdc5a5-d325-4a55-9117-5b5015586df6|/8ebdc5a5-d325-4a55-9117-5b5015586df6|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1905000|673100|9e62d784-5ef8-4b41-8f46-7050c1628001|00000000-0000-0000-0000-000000000000|/8ebdc5a5-d325-4a55-9117-5b5015586df6|/8ebdc5a5-d325-4a55-9117-5b5015586df6|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|863600|673100|ac2e678f-0015-4a5b-ba59-613f9f8d5190|00000000-0000-0000-0000-000000000000|/8ebdc5a5-d325-4a55-9117-5b5015586df6|/8ebdc5a5-d325-4a55-9117-5b5015586df6|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -575,25 +596,25 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -602,7 +623,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -626,7 +647,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -691,7 +712,7 @@
         "uuid": "8ebdc5a5-d325-4a55-9117-5b5015586df6"
       }
     ],
-    "used_designators": "D3",
+    "used_designators": "SW2-3,#PWR7-9,#PWR11,#PWR14,U3",
     "variants": []
   },
   "sheets": [

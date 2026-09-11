@@ -2986,7 +2986,7 @@
 		)
 		(uuid "ddb533e6-7c76-4f50-86e5-af4736915e01")
 	)
-	(text_box "should amp be connected to pico power?"
+	(text_box "i did that!"
 		(exclude_from_sim no)
 		(at 256.54 142.24 0)
 		(size 26.67 20.32)
